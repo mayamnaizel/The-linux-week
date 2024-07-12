@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#Open a web browser.
+
+#Navigate to http://localhost/testdb.php
+
+#if you are using an EC2 Instance open the Public IP and make sure it is HTTP not HTTPS
+
+#Add the path to the PHP Script which is /testdb.php
