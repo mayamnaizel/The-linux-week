@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#Secure MySQL Installation
+sudo mysql_secure_installation
+
+
+#Creating MySQL Database and User
+
+sudo mysql_secure_installation
+
+
+#MySQL Script
+
+CREATE DATABASE mydatabase;
+
+CREATE USER 'dbuser'@'localhost' IDENTIFIED BY 'SecurePass123!';
+
+GRANT ALL PRIVILEGES ON mydatabase.* TO 'dbuser'@'localhost';
+
+FLUSH PRIVILEGES;
+
+EXIT;
